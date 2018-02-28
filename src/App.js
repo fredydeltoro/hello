@@ -1,15 +1,35 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Hello from './components/Hello';
-import Nombre from './components/Nombre';
+import Person from './components/Person';
+
+
+const Nombres = [
+  {
+    nombre: 'Alfredo',
+    estado: 'Querétaro',
+    edad: 26
+  },
+  {
+    nombre: 'Alfredo',
+    estado: 'Querétaro',
+    edad: 26
+  },
+  {
+    nombre: 'Alfredo',
+    estado: 'Querétaro',
+    edad: 26
+  }
+]
 
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Hello nombre="Alfredo" num="2" />
+        {Nombres.map((person) => (
+          <Person person={person} num="2" />
+        ))}
       </div>
     );
   }
