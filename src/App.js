@@ -16,9 +16,9 @@ const Nombres = [
     edad: 26
   },
   {
-    nombre: 'Alfredo',
-    estado: 'Querétaro',
-    edad: 26
+    nombre: 'Francisco',
+    estado: 'Hidalgo',
+    edad: 38
   }
 ]
 
