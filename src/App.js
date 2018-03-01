@@ -6,13 +6,13 @@ import Person from './components/Person';
 
 const Nombres = [
   {
-    nombre: 'Alfredo',
-    estado: 'Querétaro',
-    edad: 26
+    nombre: 'Gerardo',
+    estado: 'MTY',
+    edad: 28
   },
   {
-    nombre: 'Alfredo',
-    estado: 'Querétaro',
+    nombre: 'Ernesto',
+    estado: 'Campeche',
     edad: 26
   },
   {
